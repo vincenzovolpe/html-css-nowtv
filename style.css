@@ -156,6 +156,7 @@ header {
     font-size: 36px;
     margin-top: 60px;
     margin-bottom: 50px;
+    font-weight: 400;
 }
 
 #vantaggi .titolo-short {
@@ -176,8 +177,8 @@ header {
 }
 
 #vantaggi img  {
-    height: 117px;
-    width: 30%;
+    height: 90px;
+    width: 90px;
 }
 /* fine vantaggi */
 
