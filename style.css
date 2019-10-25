@@ -141,6 +141,16 @@ header {
     border-right: none;
 }
 
+@media screen and (max-width: 992px) {
+    #movies .col-lg-3:nth-last-child(-n+2) {
+        display: none;
+    }
+
+    #movies .col-md-6:nth-child(2) img {
+        border-right: none;
+    }
+}
+
 @media screen and (max-width: 1440px) {
     #jumbo {
         height: 650px;
@@ -207,7 +217,7 @@ header {
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 
     header {
         height: 50px;
@@ -247,5 +257,18 @@ header {
 
     #ribbon .button {
         margin-left: 0;
+    }
+
+    #movies .col-md-6:nth-child(2).col-lg-3:nth-child(2) {
+        display: none;
+    }
+
+    #movies img {
+        width: 100%;
+        height: auto;
+    }
+
+    #movies .col-xs-12 img {
+        border-right: none;
     }
 }
