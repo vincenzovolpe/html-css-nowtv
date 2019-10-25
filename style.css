@@ -1,0 +1,251 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    border-radius: 28px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    padding: 8px 16px;
+}
+
+.button.cta {
+    background-color: #14B46C;
+    border-color: #14B46C;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+main {
+    padding-top: 60px;
+}
+/*** fine regole layout base ***/
+
+/*** header ***/
+header {
+    background-color: #FFB100;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+#logo-container {
+    text-align: center;
+}
+
+#logo-container img {
+    height: 27px;
+    margin-top: calc((60px - 27px) / 2);
+    cursor: pointer;
+}
+
+#accedi-container {
+    text-align: right;
+}
+
+#accedi {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+    padding: 8px 16px;
+    line-height: 60px;
+    margin-right: 12px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+#accedi i {
+    margin-right: 5px;
+    font-size: 12px;
+}
+/*** fine header ***/
+
+/*** jumbo ***/
+#jumbo {
+    background-color: #FFB100;
+    height: 900px;
+    padding-right: 60px;
+    padding-bottom: 80px;
+}
+
+#jumbo-img {
+    background-image: url('https://www.nowtv.it/content/dam/static/contentimages/original/sezioni/nowtv/1_home_trial/2018/visori_nuovi/VisoreDoppioXF13_1994.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    position: relative;
+}
+
+#jumbo-text {
+    background-color: white;
+    width: 303px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 100px;
+    padding: 30px 40px;
+    color: #680091;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#jumbo-text img {
+    margin-bottom: 30px;
+}
+
+#jumbo-text p {
+    line-height: 1.5;
+}
+
+#jumbo-text .cta {
+    display: block;
+    padding: 16px 20px;
+    margin-top: 30px;
+}
+
+/*** fine jumbo ***/
+
+/*** ribbon ***/
+#ribbon {
+    background-color:  #680091;
+    height: 70px;
+}
+
+#ribbon p {
+    text-align: center;
+    color: white;
+    line-height: 70px;
+    font-weight: bold;
+}
+
+#ribbon .button {
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+#movies img {
+    max-width: 100%;
+    border-right: 5px solid white;
+}
+
+#movies .col-lg-3:last-child img {
+    border-right: none;
+}
+
+@media screen and (max-width: 1440px) {
+    #jumbo {
+        height: 650px;
+    }
+
+    #jumbo-text {
+        left: 50px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #jumbo {
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #jumbo {
+        height: 920px;
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+
+    #jumbo-img {
+        height: 600px;
+        width: 100%;
+        background-size: cover;
+        background-position: right center;
+    }
+
+    #jumbo-text {
+        top: 590px;
+        left: 50%;
+        width: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 1023px) {
+
+    #accedi {
+        background: transparent;
+        margin-right: 0;
+    }
+
+    #accedi span {
+        display: none;
+    }
+
+    #accedi i {
+        font-size: 16px;
+    }
+
+    #jumbo {
+        height: 760px;
+    }
+
+    #jumbo-img {
+        height: 400px;
+    }
+
+    #jumbo-text {
+        top: 390px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    header {
+        height: 50px;
+    }
+
+    main {
+        padding-top: 50px;
+    }
+
+    #logo-container img {
+        margin-top: calc((50px - 27px) / 2);
+    }
+
+    #accedi {
+        line-height: 50px;
+        font-size: 20px;
+    }
+
+    #accedi i {
+        font-size: 20px;
+    }
+
+    #jumbo-text {
+        width: 300px;
+    }
+
+    #ribbon {
+        height: auto;
+    }
+
+    #ribbon .ribbon-cta-container {
+        display: block;
+        text-align: center;
+        line-height: 1.5;
+        padding-bottom: 30px;
+    }
+
+    #ribbon .button {
+        margin-left: 0;
+    }
+}
