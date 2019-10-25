@@ -132,14 +132,54 @@ header {
     font-weight: normal;
 }
 
+/* fine ribbon */
+
 #movies img {
     max-width: 100%;
     border-right: 5px solid white;
 }
 
+/* Inzio movies */
 #movies .col-lg-3:last-child img {
     border-right: none;
 }
+/* fine movies */
+
+/* Inizio vantaggi */
+#vantaggi {
+    background-color: #022b42;
+    text-align: center;
+    color: white;
+}
+
+#vantaggi .titolo-big {
+    font-size: 36px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+#vantaggi .titolo-short {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#vantaggi article {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#vantaggi p {
+    font-size: 16px;
+    margin-bottom: 70px;
+    line-height: 1.5;
+}
+
+#vantaggi img  {
+    height: 117px;
+    width: 30%;
+}
+/* fine vantaggi */
 
 @media screen and (max-width: 992px) {
     #movies .col-lg-3:nth-last-child(-n+2) {
@@ -259,7 +299,7 @@ header {
         margin-left: 0;
     }
 
-    #movies .col-md-6:nth-child(2).col-lg-3:nth-child(2) {
+    #movies .col-md-6:nth-child(2) {
         display: none;
     }
 
