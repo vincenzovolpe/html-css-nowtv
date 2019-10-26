@@ -220,10 +220,11 @@ header {
     line-height: 1.5;
     margin: 10px auto 35px;
 }
-
-
-
 /* fine offerta */
+
+/* Inizio footer */
+
+/* Fine Footer */
 
 @media screen and (max-width: 992px) {
     #movies .col-lg-3:nth-last-child(-n+2) {
