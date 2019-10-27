@@ -270,6 +270,37 @@ footer {
     #movies .col-md-6:nth-child(2) img {
         border-right: none;
     }
+
+    footer {
+        text-align: center;
+    }
+
+    footer img:first-child {
+        margin-bottom: 35px;
+    }
+
+    #footer-top .col-md-6 ul li {
+        border-top: 1px solid rgba(255,255,255,0.25);
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    #footer-top .col-md-6 li:last-of-type {
+        border-bottom: 1px solid rgba(255,255,255,0.25);
+    }
+
+    #footer-top .col-md-6 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #social {
+        margin-top: 40px;
+    }
+
+    .nascosto {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1440px) {
@@ -425,4 +456,7 @@ footer {
     .offerta p {
         font-size: 14px;
     }
+
+    #footer-top .col-md-6:nth-child(2) li:last-child{
+        border-bottom: none;
 }
