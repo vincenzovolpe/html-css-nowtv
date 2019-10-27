@@ -260,6 +260,10 @@ footer {
 #footer-bottom a{
     color: white;
 }
+
+#footer-bottom a {
+    text-decoration: underline;
+}
 /* Fine Footer Bottom */
 
 @media screen and (max-width: 992px) {
