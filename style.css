@@ -222,9 +222,45 @@ header {
 }
 /* fine offerta */
 
-/* Inizio footer */
+/* Inizio footer top*/
+footer {
+    background-color: #1c1c21;
+    padding: 34px 15px;
+    text-align: left;
+}
 
+ #footer-top ul{
+    list-style: none;
+ }
+
+ #footer-top li{
+     padding-top: 0;
+     padding-bottom: 20px;
+ }
+
+ #footer-top a{
+     color: white;
+ }
+
+ #social li {
+     display: inline-block;
+     padding-right: 20px;
+ }
 /* Fine Footer */
+
+/* Inizio footer bottom*/
+#footer-bottom {
+    font-size: 12px;
+    line-height: 1.33;
+    color:
+    #aaacb1;
+    margin-top: 28px;
+}
+
+#footer-bottom a{
+    color: white;
+}
+/* Fine Footer Bottom */
 
 @media screen and (max-width: 992px) {
     #movies .col-lg-3:nth-last-child(-n+2) {
